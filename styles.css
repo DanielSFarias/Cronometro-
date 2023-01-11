@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: rgba(35, 10, 66, 0.769);
+}
+img {
+    height: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+#caixa-numeros {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    background: white;
+    border-radius: 6px;
+    padding-left: 40px;
+}
+
+.numeros {
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#caixa-botoes{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botoes{
+    color: #111110;
+    padding: 6px 16px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#start{
+    background: green;
+    color: white;
+}
+
+#stop{
+    background: red;
+    color: white;
+}
+
+#reset{
+    color: white;
+    background: rgb(211, 85, 35);
+}
+
+.ativo {
+    opacity: 0.5;
+}    
+
